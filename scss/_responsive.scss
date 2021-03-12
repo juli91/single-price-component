@@ -1,0 +1,9 @@
+$breakpoint-md: 1024px;
+$md: 600px;
+
+
+@media (min-width: $breakpoint-md) {
+  .container-fluid {
+    width: $md;
+  }
+}
